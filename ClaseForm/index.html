@@ -10,12 +10,12 @@
   <form action="">
     <label for="Nombre">
       <span>¿Cual es tu nombre?</span>  
-      <input type="text" id="Nombre" placeholder="Tu Nombre">   
+      <input type="text" id="Nombre" name="Nombre" placeholder="Tu Nombre" autocomplete="name" required>   
     </label>
 
     <label for="Fecha Nacimiento">
         <span>¿Fecha de Nacimiento?</span>  
-        <input type="date" id="Nombre">   
+        <input type="date" id="Nombre" name="Fecha de Nacimiento" autocomplete="bday-day" required>   
     </label>
 
     <label for="Horario">
@@ -23,6 +23,11 @@
         <input type="time" id="Horario">   
     </label>
 
+    <label for="Estudios">
+       <span>¿Nivel de Estudios Cursados?</span>
+        <input type="text" id="Estudios" placeholder="Nivel alcanzado">
+    </label>
+    <input type="submit"> 
   </form>
 
 </body>
