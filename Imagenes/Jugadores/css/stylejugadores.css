@@ -2,9 +2,11 @@
 * {padding: 0;
    margin: 0;
    box-sizing: border-box;
+   
 }
 
 #main-h1 { 
+
     background-color: grey;
     padding: 20px;
     border: 15px solid black;  
@@ -13,6 +15,7 @@
 } 
 #img-figure { border-radius: 20%;
               border: 5px solid black;    
+              margin: 10px;
 
 }
 
@@ -22,7 +25,7 @@ img {
 video {max-width: 500px; max-height: 500px; }
 
 .listado { list-style: none;
-           background-color: beige;  
+           background-color: rgb(183, 250, 166);  
 
 }
  
@@ -35,8 +38,9 @@ video {max-width: 500px; max-height: 500px; }
 
 
 .titulo2 {
+    border-radius: 15px;
     color: red;
-    border: 10px solid black;
+    border: 5px solid black;
     padding: 15px;
     background-color: gray;
     font-size: 40px;
@@ -46,5 +50,12 @@ video {max-width: 500px; max-height: 500px; }
     
 .tit3 {color: gray;
        font-size: 20px;  }
+
+ .tit4 {border: 5px solid black;
+        background-color: burlywood;
+        padding: 5px;
+        font-size: 25px;
+        
+ }      
 
        
