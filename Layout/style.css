@@ -89,12 +89,19 @@ html {
 
 .content {
     font-size: 2rem;
-    padding: 2rem;
-     
-    
-    width: 145rem;
+    padding: 3rem;
+    min-height: 70rem;         
+    min-width: 145rem;
     position: absolute;left: 30rem; top: 12rem;
+    background-color: rgb(211, 168, 116);
 }
 .footer {
-    
+    font-size: 2rem;
+    padding: 3rem;
+    width: 100vw;
+    height: 20rem;
+    border: 0.3rem black solid;
+    text-align: center;
+    background-color: rgb(233, 171, 101);
+        
 }
