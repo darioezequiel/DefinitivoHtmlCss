@@ -6,3 +6,55 @@
 html {
     font-size: 62.5%;
 }
+.header-container {
+   width: 100vw;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;  
+   border: .3rem black solid;
+   background-color: antiquewhite;
+
+  
+}
+.imagen {
+    border:0.1rem black solid;
+    border-radius: 0.4rem;
+    padding: 0.8rem;
+    margin: 1.6rem;
+
+}
+
+.menu-nav {
+      font-size: 1.6rem;
+      color: blueviolet;   
+      padding: auto;
+      display: flex;
+      padding: 2rem;
+         
+}
+
+.menu-nav li {
+    list-style: none;  
+    font-size: 2rem;
+    display: inline-block;
+        
+   }
+.menu-nav li a {
+    padding: 1.5rem;
+    
+}
+.container-main {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blanchedalmond;
+    width: 100vw;
+    height: auto;
+}
+
+.box1 {
+    border: 0.2rem solid black;
+    padding: 1rem;
+    margin: 1rem;
+    justify-content: center;
+}
+
