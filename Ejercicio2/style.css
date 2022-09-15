@@ -39,6 +39,8 @@ html {
     display: inline-block;
         
    }
+.menu-nav li::after {content:"  |  ";}
+
 .menu-nav li a {
     padding: 1.5rem;
     
@@ -49,6 +51,7 @@ html {
     background-color: blanchedalmond;
     width: 100vw;
     height: auto;
+   
 }
 
 .box1 {
@@ -56,5 +59,33 @@ html {
     padding: 1rem;
     margin: 1rem;
     justify-content: center;
+
+}
+.box2 {
+    border: 0.2rem solid black;
+    padding: 1rem;
+    margin: 1rem;
+    justify-content: center;
+}
+.box3 {
+    border: 0.2rem solid black;
+    padding: 1rem;
+    margin: 1rem;
+    justify-content: center;
+}
+.box4 {
+    border: 0.2rem solid black;
+    padding: 1rem;
+    margin: 1rem;
+    justify-content: center;
 }
 
+.footer {
+    font-size: 2rem;
+    width: 100vw;
+    height: auto;
+    padding: 2rem;
+    background-color: brown;
+    min-height: 150px;
+   
+}
