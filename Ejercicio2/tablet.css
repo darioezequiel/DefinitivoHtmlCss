@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+}
+
+.container-main {
+   justify-content: space-evenly;
+}
+
+.box1 {
+    width: 27rem;
+    height: 30rem;
+    order: 1;
+}
+.box2 {
+    width: 27rem;
+    height: 30rem;
+    order: 2;
+}
+
+.box3 {
+    width: 27rem;
+    height: 30rem;
+    order: 3;
+}
+
+.box4 {
+    width: 27rem;
+    height: 30rem;
+    order: 4;
+}

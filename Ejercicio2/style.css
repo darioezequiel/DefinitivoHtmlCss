@@ -6,6 +6,10 @@
 html {
     font-size: 62.5%;
 }
+
+body {
+    font-size: 1.6rem;
+}
 .header-container {
    width: 100vw;
    display: flex;
@@ -21,8 +25,7 @@ html {
     border-radius: 0.4rem;
     padding: 0.8rem;
     margin: 1.6rem;
-
-}
+  }
 
 .menu-nav {
       font-size: 1.6rem;
@@ -37,8 +40,8 @@ html {
     list-style: none;  
     font-size: 2rem;
     display: inline-block;
-        
-   }
+    }
+
 .menu-nav li::after {content:"  |  ";}
 
 .menu-nav li a {
@@ -48,36 +51,47 @@ html {
 .container-main {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;   
     background-color: blanchedalmond;
     width: 100vw;
-    height: auto;
-   
+    height: auto;      
+
 }
 
 .box1 {
     border: 0.2rem solid black;
-    padding: 1rem;
-    margin: 1rem;
-    justify-content: center;
-
+    padding: 2rem;
+    margin: 2rem; 
+    width: 30rem;
+    height: 26rem;  
+      
 }
+
 .box2 {
     border: 0.2rem solid black;
     padding: 1rem;
-    margin: 1rem;
-    justify-content: center;
-}
+    margin: 2rem;
+    width: 30rem;
+    height: 26rem;
+
+    }
+
 .box3 {
     border: 0.2rem solid black;
-    padding: 1rem;
-    margin: 1rem;
-    justify-content: center;
-}
+    padding: 2rem;
+    margin: 2rem;
+    width: 30rem;
+    height: 26rem;
+
+   }
+
 .box4 {
     border: 0.2rem solid black;
-    padding: 1rem;
-    margin: 1rem;
-    justify-content: center;
+    padding: 2rem;
+    margin: 2rem;
+    width: 30rem;
+    height: 26rem;
+
 }
 
 .footer {
@@ -87,5 +101,5 @@ html {
     padding: 2rem;
     background-color: brown;
     min-height: 150px;
-   
+    text-align: center;        
 }
