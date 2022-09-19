@@ -19,24 +19,24 @@ html {
     margin-right: auto;
 } */
 .box1 {
-    width: 27rem;
-    height: 30rem;
+    width: 30%;
+    height: 20%;
     order: 4;
 }
 .box2 {
-    width: 27rem;
-    height: 30rem;
+    width: 30%;
+    height: 20%;
     order: 2;
 }
 
 .box3 {
-    width: 27rem;
-    height: 30rem;
+    width: 30%;
+    height: 20%;
     order: 1;
 }
 
 .box4 {
-    width: 27rem;
-    height: 30rem;
+    width: 30%;
+    height: 20%;
     order: 3;
 }
