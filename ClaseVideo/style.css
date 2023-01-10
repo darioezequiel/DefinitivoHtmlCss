@@ -12,7 +12,14 @@ body {
     background-color: bisque;
 }
 
-section {
-    position: absolute;
-    
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.video {
+    border: 0.2rem solid red;
+    border-radius: 1rem;
+
 }
