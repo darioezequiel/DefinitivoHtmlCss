@@ -7,16 +7,50 @@ html {
     font-size: 62.5%;
 }
 .parent {
-    border: 2px black dotted;
-    display: inline-block;
+    height: 80vh;
+    width: 80vw;
+    margin: auto;
+
+    /* border: 2px black dotted; */
+    
+    position: relative;    
 }
-.box {
-    display: inline-block;
-    background-color: red;
-    width: 100px;
-    height: 100px;
+
+.box1 {      
+    width: 38rem;
+    height: 18rem;
+    top: 2rem;
+    font-size: 3rem;
+    position: relative;
+    z-index: 0;
 }
-#two {
+
+.box2 {
     background-color: green;
-    position: relative; left: 1rem; top: 1rem;
+    position: absolute; 
+    left: 45rem;
+    top: 0rem;
+    width: 18rem;
+    height: 18rem;
+    font-size: 3rem; 
+}
+
+/* .box3 {
+
+    background-color: aqua;
+    position: absolute;
+    top: 20rem;
+    width: 18rem;
+    height: 18rem;
+    font-size: 3rem;
+} */
+
+.box4 {
+    background-color: blueviolet;
+    position: absolute;
+    top: 22rem;
+    /* left: 20rem; */
+    width: 65rem;
+    height: 18rem;
+    font-size: 3rem;
 }
